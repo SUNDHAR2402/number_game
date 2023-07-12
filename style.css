@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+body
+{
+    font-family: 'Rubik Dirt', cursive;
+}
+.container
+{
+    background-image: url(./images/numbers1.jpg);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+.logo
+{
+    font-size: 50px;
+    text-shadow: 3em;
+    text-shadow: -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+.button
+{
+    background-color: orange;
+    color: white;
+    height: 30px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 100;
+    margin-top: 10%;
+}
+h3
+{
+    font-size: 200%;
+}
+input
+{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    width: 200%;
+    height: 50%;
+    margin-left: -80px;
+}
+#message
+{
+    font-size: 30px;
+    margin-top: 3%;
+    
+}
+.win
+{
+    justify-content: center;
+}
+.won
+{
+    font-size: 100px;
+    color: blueviolet;
+}
+.loss
+{
+    justify-content: center;
+}
+#lives
+{
+    color: yellow;
+    margin-top: 5%;
+}
